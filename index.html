@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gestión de Menú Dinámico</title>
+</head>
+<body>
+  <h1>Gestión de Menú</h1>
+  <section>
+    <input type="number" id="menuId" placeholder="ID">
+    <input type="text" id="menuName" placeholder="Nombre del menú">
+    <input type="text" id="menuLink" placeholder="Enlace del menú">
+    <button onclick="addMenu()">Agregar</button>
+  </section>
+
+  <table id="menuTable" border="1">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Enlace</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
